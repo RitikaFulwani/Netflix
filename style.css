@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+  }
+  .img-logo{
+    width: 14%;
+    color: #e50914;
+  }
+  
+  .btn-sign-in{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    padding-top: 1vw;
+  }
+  
+  .main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .root{
+    background-image: radial-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)),url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .main-titles-container{
+    width: 50%;
+    text-align: center;
+    color: white;
+  }
+  
+  .main-title{
+    font-size: 3.2em;
+    margin-bottom: 14px;
+  }
+  
+  .main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .main-call-to-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+  }
+  
+  .main-email-container{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-email-container-input{
+    outline: none;
+    border : none;
+    padding: 20px 10px;
+    font-size: 1em
+  }
+  
+  .btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+  
+  }
+  
+  .btn-get-started:hover{
+    background-color: #e50914;
+  }
